@@ -25,3 +25,18 @@ reportChecker <- function(x){
 sum(unlist(lapply(input, reportChecker)));
 
 #Part 2
+
+reportChecker2 <- function(x){
+    ans <- 0
+    for(i in seq_along(x)) {
+        for(j in seq_along(x[[i]])){
+            report <- x[[i]][setdiff(seq_along(x[[i]]), j)]
+            dampener <- reportChecker(report)
+            if(dampener == 1){
+                ans <- ans + 1
+                break
+            }
+        }
+    }
+    print(ans)
+}
