@@ -1,0 +1,28 @@
+{
+    "id": "1E69A773",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1733357169756.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "id": "b97b1dc98961488397f27c188d3c14d0",
+        "name": "wordTable",
+        "title": "wordTable",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 3484442656290726260,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1733357169756,
+    "read_only": false,
+    "read_only_alternatives": []
+}
